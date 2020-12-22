@@ -5,7 +5,6 @@ package com.array3;
  * that the sum of the numbers on one side is equal to the sum of the numbers 
  * on the other side.
 
-
 canBalance([1, 1, 1, 2, 1]) → true
 canBalance([2, 1, 1, 2, 1]) → false
 canBalance([10, 10]) → true
