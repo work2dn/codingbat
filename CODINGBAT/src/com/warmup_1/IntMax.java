@@ -22,7 +22,34 @@ public class IntMax {
 	}
 
 	private static int intMax(int a, int b, int c) {
-		return null;
+		
+		int maxab = Math.max(a, b);
+		
+		int maxabc = Math.max(maxab, c);
+		
+		
+		return maxabc;
+		
+		/*
+		 * Below is a codingbat solution:
+		 * 
+		 	
+		  int max;
+  
+		  // First check between a and b
+		  if (a > b) {
+		    max = a;
+		  } else {
+		    max = b;
+		  }
+		  
+		  // Now check between max and c
+		  if (c > max) {
+		    max = c;
+		  }
+		  
+		  return max;
+		 */
 	}
 
 }
