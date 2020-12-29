@@ -14,6 +14,7 @@ package com.warmup_1;
  * @author rdarshan
  *
  */
+
 public class EveryNth {
 
 	public static void main(String[] args) {
