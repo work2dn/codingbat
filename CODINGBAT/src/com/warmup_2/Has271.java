@@ -32,7 +32,7 @@ public class Has271 {
 			
 			int end1=i+1, end2=i+2;
 			
-			if(end1 >= nums.length || end2 >= nums.length) break;
+			if((end1 >= nums.length) || (end2 >= nums.length))  break;
 			
 			if(nums[end1] == nums[i] + 5 && Math.abs(nums[i] - 1 - nums[end2]) <= 2) {
 				
